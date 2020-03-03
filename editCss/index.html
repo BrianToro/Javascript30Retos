@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Playing with Css</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Cambiar variables de CSS <br/> con <span class="ret">JS</span></h1>
+        <div class="container-input">
+            <label for="">Espacio</label>
+            <input type="range" name="spacing" min="10" max="200" value="10" data-sizing="px" data-name="spacing">
+            <label for="">Desenfoque</label>
+            <input type="range" name="blur" min="0" max="25" value="10" data-sizing="px" data-name="blur">
+            <label for="">Colo de fondo</label>
+            <input type="color" name="base" value="#ffc600" data-name="base">
+        </div>
+    </div>
+    <div class="img-container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Metro_de_Medell%C3%ADn%2C_Colombia.jpg/1200px-Metro_de_Medell%C3%ADn%2C_Colombia.jpg" alt="Una imagen">
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
